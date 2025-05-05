@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left; 
+    height: 70px;
+}
+
+.logo{
+    color:rgb(0, 164, 229);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
