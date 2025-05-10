@@ -1,25 +1,51 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title> Ashton Xu </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="main"> 
-        <div class="navbar">
-            <div icon="icon">
-                <h2 class="logo">Ashton Xu</h2>
-            </div>
-            <div class="menu">
-                <ul>
-                        
-                </ul>
+    <nav class="navbar">
+        <h1 class="logo">A.X.</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>About Me</li>
+            <li><a href="#"></a>Projects</li>
+            <li><a href="#"></a>IDK</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="headercontent">
+            <h2> About Me</h2>
+            <div class="line"></div>
+            <h1> Ashton Xu </h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>About Me</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+            
             </div>
         </div>
-    </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () =>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
 </body>
-
-
 </html>
