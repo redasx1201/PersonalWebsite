@@ -1,5 +1,7 @@
 # PersonalWebsite
 
-to fire up use 
-http://username.github.io/repository
+to fire up please use 
+https://redasx1201.github.io/PersonalWebsite/
+
+Thanks!
 
