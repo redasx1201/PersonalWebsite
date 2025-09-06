@@ -20,13 +20,15 @@ ul {
 
 /* Navigation Bar */
 .navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 20px;
+    background-color: rgb(0, 132, 255);
     color: whitesmoke;
 }
 
@@ -48,6 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 75px;
 }
 
 .headercontent{
